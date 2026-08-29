@@ -23,11 +23,5 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('about', views.about, name='about'),
     path('playlist', views.playlist, name='playlist'),
-    path('removepunc', views.removepunc, name='removepunc'),
-    path('capitalizefirst', views.capitalizefirst, name='capitalizefirst'),
-    path('newlineremove', views.newlineremove, name='newlineremove'),
-    path('spaceremove', views.spaceremove, name='spaceremove'),
-    path('charcount', views.charcount, name='charcount'),
     path('analyze', views.analyze, name='analyze'),
 ]
-
